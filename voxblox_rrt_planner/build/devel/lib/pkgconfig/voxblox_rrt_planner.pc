@@ -1,0 +1,8 @@
+prefix=/home/wfram/catkin_ws_voxblox/src/mav_voxblox_planning/voxblox_rrt_planner/build/devel
+
+Name: voxblox_rrt_planner
+Description: Description of voxblox_rrt_planner
+Version: 0.0.0
+Cflags: -I/home/wfram/catkin_ws_voxblox/src/mav_voxblox_planning/voxblox_rrt_planner/include
+Libs: -L${prefix}/lib -lvoxblox_rrt_planner /usr/lib/x86_64-linux-gnu/libompl.so
+Requires: mav_msgs mav_path_smoothing mav_planning_common mav_trajectory_generation_ros roscpp std_msgs tf visualization_msgs voxblox_ros
